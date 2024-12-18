@@ -7,7 +7,7 @@ import LogoLight from "../../../../public/images/logo.png";
 import LogoTwoDark from "../../../../public/images/logo-three.png";
 import LogoTwoLight from "../../../../public/images/logo-four.png";
 import LogoThreeDark from "../../../../public/images/logo-light.png";
-import logo from '../../../../public/images/logo/logo.jpg';
+import logo from '../../../../public/images/logo/logo.jpeg';
 
 interface HeaderProps {
   openNav: boolean;

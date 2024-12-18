@@ -48,7 +48,7 @@ const Layout = ({ children, header, footer }: layoutProps) => {
       <Head>
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="shortcut icon" href="/favicon.jpg" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon.jpeg" type="image/x-icon" />
         <title>MindlyticAI - Home</title>
         <meta name="keywords" content="techai, ai, toolkit" />
         <meta name="description" content="AI Toolkit React Template" />

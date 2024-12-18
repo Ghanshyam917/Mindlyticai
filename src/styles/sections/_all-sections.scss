@@ -220,7 +220,7 @@
       padding: 8px 16px;
       line-height: 1;
       color: $theme-color;
-      background: #8fffec;
+      background: #2ac3ef;
       border-radius: 100px;
       transform: translateY(-50%);
     }
@@ -1322,12 +1322,12 @@
     }
 
     &:hover {
-      border: 1px solid #8fffec;
+      border: 1px solid #2ac3ef;
     }
   }
 
   .generate__content-btn-active {
-    border: 1px solid #8fffec;
+    border: 1px solid #2ac3ef;
 
     .h5 {
       color: $septenary-color;

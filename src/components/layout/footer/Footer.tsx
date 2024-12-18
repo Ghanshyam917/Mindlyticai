@@ -4,7 +4,7 @@ import Link from "next/link";
 import AnimeOne from "../../../../public/images/footer-anime-one.png";
 import AnimeTwo from "../../../../public/images/footer-anime-two.png";
 import LogoTwo from "../../../../public/images/logo-two.png";
-import logo from "../../../../public/images/logo/logo.jpg";
+import logo from "../../../../public/images/logo/logo.jpeg";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
