@@ -343,7 +343,10 @@
   }
 
   .h4 {
-    color: $white;
+    // color: $white;
+    background: linear-gradient(to right, #2cc1ec, #7a34d6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .sponsor__slider-item {
@@ -4015,4 +4018,15 @@
  .ctaone_heading{
     font-size: 30px;
     font-weight: 600;
+ }
+ 
+ .work_heading,.nav__logo p,.footer__single .logo p,.fa-phone,.fa-envelope{
+  background: linear-gradient(to right, #2cc1ec, #7a34d6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+ }
+ 
+ .tour_secbtn{
+  margin-right: 25px;
  }

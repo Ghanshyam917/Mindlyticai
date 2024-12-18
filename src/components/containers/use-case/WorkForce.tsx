@@ -14,7 +14,7 @@ const WorkForce = () => {
               <div className="row align-items-center items-gap">
                 <div className="col-12 col-lg-12">
                   <h2
-                    className="h2 text-center"
+                    className="h2 text-center work_heading"
                     data-aos="fade-up"
                     data-aos-duration="600"
                   >

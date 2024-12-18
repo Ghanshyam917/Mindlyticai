@@ -42,7 +42,7 @@ const Footer = () => {
                   <Link href="#" onClick={(e) => e.preventDefault()} aria-label="social media">
                     <i className="fa-brands fa-twitter"></i>
                   </Link>
-                  <Link href="#" onClick={(e) => e.preventDefault()} aria-label="social media">
+                  <Link href="https://www.linkedin.com/company/mindlytic-ai/posts/?feedView=all" target="_blank" aria-label="social media">
                     <i className="fa-brands fa-linkedin-in"></i>
                   </Link>
                   <Link href="#" onClick={(e) => e.preventDefault()} aria-label="social media">

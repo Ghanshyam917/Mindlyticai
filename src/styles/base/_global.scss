@@ -146,6 +146,9 @@ i {
   margin-top: -10px;
   .h2 {
     font-weight: 700;
+    background: linear-gradient(to right, #2cc1ec, #7a34d6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   p {
@@ -212,7 +215,7 @@ i {
 .social {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 12px;
   justify-content: center;
   a {
     color: #ffffff70;
@@ -222,6 +225,16 @@ i {
 
     i {
       transition: none;
+      background: linear-gradient(to right, #2cc1ec, #7a34d6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      padding: 8px 10px;
+      border: 1px solid #7a34d6;
+      border-radius: 50%;
+      width: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 }

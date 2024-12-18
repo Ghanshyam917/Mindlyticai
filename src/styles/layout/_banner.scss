@@ -26,7 +26,10 @@
     }
 
     .h1 {
-      color: $white;
+      // color: $white;
+      background: linear-gradient(to right, #2cc1ec, #7a34d6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
 
     .section__content-cta {
@@ -270,8 +273,8 @@
 //  Added By Ghanshyam
 
 .bannerHeading1 {
-  font-size: 35px;
-  line-height: 40px;
+  font-size: 37px!important;
+  line-height: 50px!important;
 }
 .bannerpara{
   line-height: 20px;

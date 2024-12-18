@@ -189,7 +189,7 @@ const Tour = () => {
               </div>
             </div>
           </div>
-          <div className="section__content-cta text-center">
+          <div className="section__content-cta text-center tour_secbtn">
             <Link href="#" onClick={(e) => e.preventDefault()} className="btn btn--secondary">
               Learn How
             </Link>

@@ -6,7 +6,10 @@
   .footer__single {
     margin-top: -10px;
     .h5 {
-      color: $white;
+      // color: $white;
+      background: linear-gradient(to right, #2cc1ec, #7a34d6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
 
     ul {
@@ -24,7 +27,7 @@
       font-weight: 400;
       color: $white;
       &:hover {
-        padding-left: 8px;
+        // padding-left: 8px;
         color: $septenary-color;
       }
     }
@@ -225,7 +228,7 @@
 .footer-light {
   .footer__single {
     .h5 {
-      color: $theme-color;
+       color: $theme-color;
     }
 
     a {
