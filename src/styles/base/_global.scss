@@ -118,7 +118,8 @@ i {
 }
 
 .section {
-  padding: 140px 0px;
+  // padding: 140px 0px;
+  padding: 70px 0px 140px 0px;
   position: relative;
   z-index: 1;
   overflow-x: clip !important;
@@ -532,4 +533,7 @@ i {
    .footerlogo img{
     border-radius: 50%;
     width: 70px;
+   }
+   .sponsor__inner{
+    padding-top: 140px!important;
    }
