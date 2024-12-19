@@ -298,7 +298,7 @@
 
       a {
         @include box(40px);
-        background-color: $primary-color;
+        // background-color: $primary-color;
         color: $white;
 
         &:hover {

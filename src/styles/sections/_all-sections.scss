@@ -366,12 +366,12 @@
     }
   }
 
-  .swiper-slide-active {
-    img {
-      filter: invert(82%) sepia(39%) saturate(369%) hue-rotate(111deg)
-        brightness(400%) contrast(102%);
-    }
-  }
+  // .swiper-slide-active {
+  //   img {
+  //     filter: invert(82%) sepia(39%) saturate(369%) hue-rotate(111deg)
+  //       brightness(400%) contrast(102%);
+  //   }
+  // }
 }
 
 // 05. tour
@@ -4027,6 +4027,4 @@
   font-weight: bold;
  }
  
- .tour_secbtn{
-  margin-right: 25px;
- }
+ 

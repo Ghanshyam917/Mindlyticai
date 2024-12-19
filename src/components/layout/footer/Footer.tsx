@@ -132,6 +132,7 @@ const Footer = () => {
                       <a href="mailto:mindlyticai@gmail.com">
                         mindlyticai@gmail.com
                       </a>
+                      <br />
                       <a href="mailto:sales.mindlyticai@gmail.com">
                         sales.mindlyticai@gmail.com
                       </a>

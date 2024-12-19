@@ -23,7 +23,7 @@ const Tour = () => {
               In today’s fast-paced technological landscape, where artificial intelligence has become a driving force of innovation, a visionary organization has taken center stage: Mindlytic AI. With a bold mission to harness the power of AI to elevate human capabilities, bridge global connections, and keep humanity at the heart of progress, we aim to redefine how businesses operate, grow, and succeed.
               </p>
             </div>
-            <div className="col-12 row trn_process">
+            <div className="row trn_process">
               <div className="col-md-2 col-12 text-center">
                 <div className="icons">
                   <svg
