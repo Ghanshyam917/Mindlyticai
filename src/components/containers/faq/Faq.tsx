@@ -8,7 +8,7 @@ const Faq = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-12 col-xl-6">
-            <div className="section__header">
+            <div className="section__header faq_sec">
               <h2 className="h2">frequently ask questions</h2>
             </div>
           </div>

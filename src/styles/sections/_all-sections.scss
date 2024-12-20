@@ -1,7 +1,11 @@
 /* ==== 
  --------- (5.0) all sections styles start ---------
  ==== */
-
+//  @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&display=swap');
+ 
+//  *{
+//   font-family: "Quicksand", serif!important;
+//  }
 .home-dark {
   background-color: $theme-bg-dark;
 
@@ -333,7 +337,7 @@
 // 04. sponsor
 .sponsor {
   .sponsor__inner {
-    padding: 65px;
+    padding: 70px;
     // background-image: url("../../../public/images/sponsor/sponsor-bg.png");
     background-image: url("../../../public/images/footer-two-bg.png");
     background-repeat: no-repeat;
@@ -2067,7 +2071,7 @@
 }
 
 .eraser-two {
-  background-color: #f4f7ff;
+  background-color: #40495c;
 
   .eraser__slider-item {
     border: 0px;
@@ -4020,11 +4024,16 @@
     font-weight: 600;
  }
  
- .work_heading,.nav__logo p,.footer__single .logo p,.fa-phone,.fa-envelope{
+ .work_heading,.nav__logo p,.footer__single .logo p,.fa-phone,.fa-envelope,.fa-location-dot{
   background: linear-gradient(to right, #2cc1ec, #7a34d6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
  }
  
- 
+ .fa-location-dot{
+  margin-top: 7px;
+ }
+ .sponsor{
+  background: #06054b7d;
+ }

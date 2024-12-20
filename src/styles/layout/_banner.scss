@@ -38,6 +38,7 @@
       align-items: center;
       gap: 30px;
       flex-wrap: wrap;
+      margin-top: 45px;
     }
   }
 }
@@ -231,8 +232,10 @@
 }
 
 // cmn banner
+
 .cmn-banner {
-  margin-top: 118px;
+  // margin-top: 118px;
+  margin-top: 100px;
   background-image: url("../../../public/images/banner/banner-bg.png");
   background-size: 100% 100%;
   background-position: left bottom;
@@ -285,3 +288,11 @@
 .banner_heading6{
   font-size: 22px;
 }
+
+@media screen and (min-width:1000px){
+  .banner-one{
+    height: calc(110vh - 60px);
+    padding: 185px 0px 130px;
+  }
+}
+

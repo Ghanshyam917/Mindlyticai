@@ -119,10 +119,13 @@ i {
 
 .section {
   // padding: 140px 0px;
-  padding: 70px 0px 140px 0px;
+  padding: 100px 0px 100px 0px;
   position: relative;
   z-index: 1;
   overflow-x: clip !important;
+}
+.fst_cmn_banner{
+  padding: 140px 0px; 
 }
 
 .section__cta {
@@ -165,7 +168,7 @@ i {
 }
 
 .section__header--secondary {
-  margin-bottom: 65px;
+  margin-bottom: 55px;
   margin-top: -10px;
 }
 
@@ -230,7 +233,7 @@ i {
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       padding: 8px 10px;
-      border: 1px solid #7a34d6;
+      border: 1px solid #2cc1ec;
       border-radius: 50%;
       width: 35px;
       display: flex;
@@ -537,3 +540,6 @@ i {
    .sponsor__inner{
     padding-top: 140px!important;
    }
+ .faq_sec{
+  margin-bottom: 90px;
+ }

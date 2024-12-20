@@ -1,11 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Thumb from "../../../../public/images/banner/banner-one-thumb.png";
+// import Thumb from "../../../../public/images/banner/banner-one-thumb.png";
+import Thumb from "../../../../public/images/banner/bannerAi.png";
 
 const BannerOne = () => {
   return (
-    <section className="section banner-one bg-img">
+    <section className="section banner-one bg-img d-flex align-items-center">
       <div className="container">
         <div className="row items-gap align-items-center">
           <div className="col-12 col-md-10 col-lg-6">
@@ -18,14 +19,14 @@ const BannerOne = () => {
               <p className="bannerpara">Envision greatness for your business as we infuse the magic of AI innovation. Join us on this transformative journey.</p>
               <div className="section__content-cta">
                 <Link href="#" onClick={(e) => e.preventDefault()} className="btn btn--secondary">
-                  Explore AI Sollution
+                  Explore AI Solution
                 </Link>
               </div>
             </div>
           </div>
           <div className="col-12 col-lg-6">
             <div className="banner-one__thumb text-start text-lg-end">
-              <Image src={Thumb} priority alt="Image" />
+              <Image src={Thumb} priority alt="Image" style={{width:'90%'}}/>
             </div>
           </div>
         </div>

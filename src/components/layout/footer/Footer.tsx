@@ -36,9 +36,9 @@ const Footer = () => {
               </ul>
               <div className="col-12">
                 <div className="social justify-content-start mt-4">
-                  <Link href="#" onClick={(e) => e.preventDefault()} aria-label="social media">
+                  {/* <Link href="#" onClick={(e) => e.preventDefault()} aria-label="social media">
                     <i className="fa-brands fa-facebook-f"></i>
-                  </Link>
+                  </Link> */}
                   <Link href="#" onClick={(e) => e.preventDefault()} aria-label="social media">
                     <i className="fa-brands fa-twitter"></i>
                   </Link>
@@ -116,12 +116,12 @@ const Footer = () => {
             >
               <h5 className="h5">Contact Us</h5>
               <ul>
-                <li>
-                  <p>
-                    Our support available to help you 24 hours a day, seven days
-                    a week.
+                <li className="text-light d-flex gap-3">
+                <i className="fa-solid fa-location-dot"></i>{" "}
+                    <p>
+                    Office-1/321,Laxmi Enclave-1,opp.Gajera School,Katargam,Surat-395004.
                   </p>
-                </li>
+                  </li>  
                   <li className="text-light d-flex align-items-center gap-3">
                     <i className="fa-solid fa-phone"></i>{" "}
                     <a href="tel: +916355528336"> +91 63555 28336</a>

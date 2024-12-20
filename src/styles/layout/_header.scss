@@ -9,11 +9,11 @@
   right: 0px;
   width: 100%;
   z-index: 99;
-  background: $white;
+  background: #111827;
 
   .nav {
     padding: 15px 0px;
-    background-color: $white;
+    background-color: #111827;
     border-radius: 0px;
   }
 
@@ -38,7 +38,7 @@
 
   .nav__menu-link {
     padding: 10px 16px;
-    color: $theme-color;
+    color: $white;
     font-weight: 500;
 
     &:hover {
@@ -223,7 +223,7 @@
 }
 
 .header-active {
-  background-color: $white;
+  background-color: $theme-color;
   animation: header 0.5s linear;
   top: 0px;
   z-index: 99;

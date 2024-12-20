@@ -29,7 +29,8 @@ body {
   line-height: 0px;
   font-weight: 400;
   color: $theme-color;
-  background-color: $theme-bg;
+  // background-color: $theme-bg;
+  background-color: #111827;
   overflow-x: clip !important;
 
   &::-webkit-scrollbar {
