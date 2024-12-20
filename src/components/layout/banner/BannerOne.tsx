@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-// import Thumb from "../../../../public/images/banner/banner-one-thumb.png";
-import Thumb from "../../../../public/images/banner/bannerAi.png";
+import Thumb from "../../../../public/images/banner/banner-one-thumb.png";
+// import Thumb from "../../../../public/images/banner/bannerAi1.png";
 
 const BannerOne = () => {
   return (
