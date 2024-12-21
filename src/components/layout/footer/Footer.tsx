@@ -4,7 +4,7 @@ import Link from "next/link";
 import AnimeOne from "../../../../public/images/footer-anime-one.png";
 import AnimeTwo from "../../../../public/images/footer-anime-two.png";
 import LogoTwo from "../../../../public/images/logo-two.png";
-import logo from "../../../../public/images/logo/logo.jpeg";
+import logo from "../../../../public/images/logo/logo.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -23,10 +23,10 @@ const Footer = () => {
                   <Link href="/">
                     <Image src={logo} alt="Image" />
                   </Link>
-                  <p>Mindlytic AI</p>
+                  {/* <p>Mindlytic AI</p> */}
                 </div>
               </h5>
-              <ul>
+              <ul className="footer_contentul">
                 <p>
                   MindlyticAI is a technology-driven company revolutionizing
                   industries with AI solutions, enhancing customer experiences,
