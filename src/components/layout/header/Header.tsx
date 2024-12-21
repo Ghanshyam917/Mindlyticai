@@ -7,7 +7,7 @@ import LogoLight from "../../../../public/images/logo.png";
 import LogoTwoDark from "../../../../public/images/logo-three.png";
 import LogoTwoLight from "../../../../public/images/logo-four.png";
 import LogoThreeDark from "../../../../public/images/logo-light.png";
-import logo from '../../../../public/images/logo/logo.jpeg';
+import logo from '../../../../public/images/logo/logo.png';
 
 interface HeaderProps {
   openNav: boolean;
@@ -124,7 +124,7 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                   <Link href="/">
                     <Image src={logo} priority alt="Logo" className="nav_logo"/>
                   </Link>
-                  <p>Mindlytic AI</p>
+                  {/* <p>Mindlytic AI</p> */}
                 </div>
                 <div
                   className={
