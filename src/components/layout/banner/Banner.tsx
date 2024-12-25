@@ -6,7 +6,7 @@ import AnimeTwo from "../../../../public/images/anime-two.png";
 
 const Banner = ({ desc, page }: any) => {
   return (
-    <section className="section cmn-banner fst_cmn_banner">
+    <section className="section cmn-banner cmn-banner_about fst_cmn_banner">
       <div className="container">
         <div className="row">
           <div className="col-12">

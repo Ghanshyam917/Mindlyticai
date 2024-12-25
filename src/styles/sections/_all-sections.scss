@@ -941,7 +941,7 @@
 
 .ctaa {
   padding: 65px 0px;
-  margin-top: 140px;
+  margin-top: 100px;
 }
 
 // 10. review
@@ -2071,7 +2071,7 @@
 }
 
 .eraser-two {
-  background-color: #40495c;
+  background-color: #192337;
 
   .eraser__slider-item {
     border: 0px;
@@ -4037,4 +4037,64 @@
  }
  .sponsor{
   background: #06054b7d;
+ }
+
+ .about-main p,.about-main h1,.about-main h2,.about-main h3,.about-main h4,.about-main h5,.about-main h6,.about-main a,.about-main li{
+  color: white!important;
+ }
+ .about-main h2,.about_corsec h2{
+  background: linear-gradient(to right, #2cc1ec, #7a34d6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ }
+
+ .accordion-body p{
+  color: white!important;
+ }
+ 
+ .collapsed.accordion-button,.footer_contentul p,.footer__single p{
+  color: white!important;
+ }
+
+ .heading,.msvs_sec p,.msvs_sec h4{
+  color: white;
+ }
+ .msvs_sec img{
+  width: 80px;
+ }
+ .msvs_sec h4{
+  margin: 16px 0px;
+  background: linear-gradient(to right, #2cc1ec, #7a34d6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ }
+ .mission,.vision{
+  padding: 0px 35px;
+ }
+ .msvs_sec.sponsor .sponsor__inner{
+  padding: 0px 70px;
+  padding-top: 100px!important;
+ }
+ .mission{
+  border-right: 1px solid white;
+ }
+
+ @media only screen and (max-width:1440px) and (min-width:1400px){
+  .about_corsec.eraser-two .eraser__slider-item{
+    height: 390px!important;
+  }
+ }
+
+ @media only screen and (max-width:1152px){
+  .msvs_sec.sponsor .sponsor__inner{
+    padding: 0px;
+  }
+ }
+ @media only screen and (max-width:769px){
+  .msvs_sec.sponsor .sponsor__inner > div{
+    gap: 80px;
+  }
+  .mission{
+    border: none;
+   }
  }

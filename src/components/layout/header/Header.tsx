@@ -214,7 +214,6 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                     </li> */}
                     <li className="nav__menu-item">
                       <Link
-                        // href="/about-us"
                         href="/"
                         className="nav__menu-link hide-nav"
                       >
@@ -223,8 +222,8 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                     </li>
                     <li className="nav__menu-item">
                       <Link
-                         href="#" onClick={(e) => e.preventDefault()}
-                        //href="/about-us"
+                         //href="#" onClick={(e) => e.preventDefault()}
+                        href="/about-us"
                         className="nav__menu-link hide-nav"
                       >
                         About Us
@@ -232,7 +231,6 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                     </li>
                     <li className="nav__menu-item">
                       <Link
-                        // href="/about-us"
                         href="#" onClick={(e) => e.preventDefault()}
                         className="nav__menu-link hide-nav"
                       >
@@ -241,7 +239,6 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                     </li>
                     <li className="nav__menu-item">
                       <Link
-                        // href="/about-us"
                         href="#" onClick={(e) => e.preventDefault()}
                         className="nav__menu-link hide-nav"
                       >
@@ -250,7 +247,6 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                     </li>
                     <li className="nav__menu-item">
                       <Link
-                        // href="/about-us"
                         href="#" onClick={(e) => e.preventDefault()}
                         className="nav__menu-link hide-nav"
                       >

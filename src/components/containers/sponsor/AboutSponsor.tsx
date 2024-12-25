@@ -1,18 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import Bose from "../../../../public/images/sponsor/bose.png";
-import Amazon from "../../../../public/images/sponsor/amazon.png";
-import Microsoft from "../../../../public/images/sponsor/microsoft.png";
-import Netflix from "../../../../public/images/sponsor/netflix.png";
-import Samsung from "../../../../public/images/sponsor/samsung.png";
-import Toyota from "../../../../public/images/sponsor/toyota.png";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper";
+import mission from "../../../../public/images/mission.png";
+import vision from "../../../../public/images/vision.png";
 import "swiper/css";
 
 const AboutSponsor = () => {
   return (
-    <div className="sponsor section pt-0">
+    <div className="sponsor section pt-0 msvs_sec">
       <div className="container">
         <div className="row">
           <div className="col-12">
@@ -21,97 +15,27 @@ const AboutSponsor = () => {
               data-aos="fade-up"
               data-aos-duration="600"
             >
-              <div className="section__header">
+              {/* <div className="section__header">
                 <h4 className="h4">Trusted by users and teams of all sizes</h4>
-              </div>
-              <div className="row">
-                <div className="col-12">
-                  <Swiper
-                    className="sponsor__slider"
-                    slidesPerView={3}
-                    spaceBetween={30}
-                    loop={true}
-                    centeredSlides={true}
-                    centeredSlidesBounds={true}
-                    modules={[Autoplay]}
-                    autoplay={{
-                      delay: 3000,
-                      disableOnInteraction: false,
-                      pauseOnMouseEnter: true,
-                    }}
-                    breakpoints={{
-                      1400: {
-                        slidesPerView: 7,
-                      },
-                      992: {
-                        slidesPerView: 5,
-                      },
-                      576: {
-                        slidesPerView: 3,
-                      },
-                    }}
-                  >
-                    <SwiperSlide>
-                      <div className="sponsor__slider-item">
-                        <Image src={Bose} priority alt="Image" />
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="sponsor__slider-item">
-                        <Image src={Amazon} priority alt="Image" />
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="sponsor__slider-item">
-                        <Image src={Microsoft} priority alt="Image" />
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="sponsor__slider-item">
-                        <Image src={Netflix} priority alt="Image" />
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="sponsor__slider-item">
-                        <Image src={Samsung} priority alt="Image" />
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="sponsor__slider-item">
-                        <Image src={Toyota} priority alt="Image" />
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="sponsor__slider-item">
-                        <Image src={Bose} priority alt="Image" />
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="sponsor__slider-item">
-                        <Image src={Amazon} priority alt="Image" />
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="sponsor__slider-item">
-                        <Image src={Microsoft} priority alt="Image" />
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="sponsor__slider-item">
-                        <Image src={Netflix} priority alt="Image" />
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="sponsor__slider-item">
-                        <Image src={Samsung} priority alt="Image" />
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="sponsor__slider-item">
-                        <Image src={Toyota} priority alt="Image" />
-                      </div>
-                    </SwiperSlide>
-                  </Swiper>
+              </div> */}
+              <div className="row text-center">
+                <div className="col-md-6 col-12 mission">
+                  <Image src={mission} alt="Our Mission" />
+                  <h4 className="heading">Our Mission</h4>
+                  <p>
+                    AI empowers businesses to unlock workforce potential,
+                    innovate for the future, and drive sustainable growth and
+                    success.
+                  </p>
+                </div>
+                <div className="col-md-6 col-12 vision">
+                  <Image src={vision} alt="Our Mission" />
+                  <h4 className="heading"> Our Vision</h4>
+                  <p>
+                    We envision AI transforming the future workforce through
+                    versatile, highly optimized solutions, driving innovation
+                    and sustainable success worldwide.
+                  </p>
                 </div>
               </div>
             </div>

@@ -248,9 +248,12 @@
     margin-top: -10px;
     .h3 {
       color: $white;
+      background: linear-gradient(to right, #2cc1ec, #7a34d6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
   }
-
+  
   .anime {
     img {
       position: absolute;
@@ -288,7 +291,9 @@
 .banner_heading6{
   font-size: 22px;
 }
-
+.cmn-banner_about{
+  background-image: url("../../../public/images/banner/aboutbanner.jpg");
+}
 @media screen and (min-width:1000px){
   .banner-one{
     height: calc(110vh - 60px);

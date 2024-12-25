@@ -65,7 +65,8 @@ const Footer = () => {
                   <Link href="#" onClick={(e) => e.preventDefault()}>Home</Link>
                 </li>
                 <li>
-                  <Link href="#" onClick={(e) => e.preventDefault()}>About Us</Link>
+                  {/* <Link href="#" onClick={(e) => e.preventDefault()}>About Us</Link> */}
+                  <Link href="/about-us">About Us</Link>
                 </li>
                 <li>
                   <Link href="#" onClick={(e) => e.preventDefault()}>Services</Link>

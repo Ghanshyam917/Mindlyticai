@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Thumb from "../../../../public/images/about-thumb.png";
+import Thumb from "../../../../public/images/about-thumb.jpg";
 
 const AboutClone = () => {
   return (
@@ -24,35 +24,36 @@ const AboutClone = () => {
               data-aos-duration="600"
               data-aos-delay="600"
             >
-              <h2 className="h2">Enabling Visual AI for Everyone</h2>
+              <h2 className="h2">Think AI, Think Us</h2>
               <div className="paragraph">
                 <p className="fw-5 text-lg">
-                  Resemble&apos;s AI voice generator lets you create realistic
-                  human-like voiceovers in seconds.
+                  we create innovative, ethical solutions that empower your future success.
                 </p>
                 <p>
-                  By making complicated tech simple, we strive to enable
-                  individuals and businesses of all sizes to benefit from the
-                  recent advances in Visual AI. Our tools simplify and
-                  accelerate workflows, foster creativity, and enable others to
-                  create new products.
+                  In an age of fast-evolving technology, where AI goes beyond buzzwords, Mindlytic AI Studio stands out. With a bold vision to enhance human cognition and create seamless connections to the world, we focus on placing humanity at the heart of our work, aiming to redefine how businesses innovate and excel.
+                </p>
+                <p>
+                  At the core of our philosophy is a human-first approach, ensuring our technology adapts to your needs, creating AI that understands and anticipates your future requirements.
+                </p>
+                <p>
+                  As the world advances in AI digitalization, Mindlytic AI stands as a pioneer, not a spectator. We envision a future where businesses leverage AI to empower their workforce, driving growth and innovation. Our mission is to make AI accessible to everyone, creating technology that understands humans as deeply as we understand it. Join us on this transformative journey toward a smarter, more efficient tomorrow with Mindlytic AI Studio.
                 </p>
               </div>
               <ul>
                 <li>
                   <i className="fa-solid fa-check"></i>
-                  Emotions
+                  Innovative 
                 </li>
                 <li>
                   <i className="fa-solid fa-check"></i>
-                  Speech-To-Speech
+                  Ethical
                 </li>
                 <li>
                   <i className="fa-solid fa-check"></i>
-                  Localize
+                  Empower
                 </li>
               </ul>
-              <div className="tour__content-cta">
+              {/* <div className="tour__content-cta">
                 <div className="trust">
                   <div className="review">
                     <i className="fa-solid fa-star"></i>
@@ -68,7 +69,7 @@ const AboutClone = () => {
                     request A Demo - its free
                   </Link>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
