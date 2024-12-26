@@ -375,7 +375,7 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                             Blog Single
                           </Link>
                         </li>
-                      </ul>
+                      </ul> 
                     </li>
                     <li className="nav__menu-item">
                       <Link
@@ -392,16 +392,13 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                     </li> */}
                   </ul>
                   <div className="social">
-                    <Link href="/" aria-label="social media">
-                      <i className="fa-brands fa-facebook-f"></i>
-                    </Link>
-                    <Link href="/" aria-label="social media">
+                    <Link href="#" onClick={(e) => e.preventDefault()} aria-label="social media">
                       <i className="fa-brands fa-twitter"></i>
                     </Link>
-                    <Link href="/" aria-label="social media">
+                    <Link href="https://www.linkedin.com/company/mindlytic-ai/posts/?feedView=all" target="_blank" aria-label="social media">
                       <i className="fa-brands fa-linkedin-in"></i>
                     </Link>
-                    <Link href="/" aria-label="social media">
+                    <Link href="#" onClick={(e) => e.preventDefault()} aria-label="social media">
                       <i className="fa-brands fa-instagram"></i>
                     </Link>
                   </div>

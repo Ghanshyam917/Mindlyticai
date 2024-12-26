@@ -53,15 +53,15 @@ const EraserTwo = () => {
                   slidesPerView: 2,
                   slidesPerGroup: 2,
                 },
-
                 992: {
                   slidesPerView: 3,
                   slidesPerGroup: 3,
                 },
                 1400: {
-                  slidesPerView: 4,
-                  slidesPerGroup: 4,
+                  slidesPerView: 3,
+                  slidesPerGroup: 3,
                 },
+
               }}
             >
               <SwiperSlide>
