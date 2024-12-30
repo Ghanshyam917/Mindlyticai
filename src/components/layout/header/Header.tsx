@@ -7,7 +7,7 @@ import LogoLight from "../../../../public/images/logo.png";
 import LogoTwoDark from "../../../../public/images/logo-three.png";
 import LogoTwoLight from "../../../../public/images/logo-four.png";
 import LogoThreeDark from "../../../../public/images/logo-light.png";
-import logo from '../../../../public/images/logo/logo.png';
+import logo from "../../../../public/images/logo/logo.png";
 
 interface HeaderProps {
   openNav: boolean;
@@ -120,11 +120,19 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
           <div className="col-lg-12">
             <nav className="nav">
               <div className="nav__content">
-                <div className="nav__logo d-flex align-items-center gap-3">
+                <div className="nav__logo d-flex align-items-center gap-1">
                   <Link href="/">
-                    <Image src={logo} priority alt="Logo" className="nav_logo"/>
+                    <Image
+                      src={logo}
+                      priority
+                      alt="Logo"
+                      className="nav_logo"
+                    />
                   </Link>
-                  {/* <p>Mindlytic AI</p> */}
+                  <div className="mt-1">
+                    <p>Mindlytic AI</p>
+                    <p>Think AI,Think Us</p>
+                  </div>
                 </div>
                 <div
                   className={
@@ -215,31 +223,38 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                     <li className="nav__menu-item">
                       <Link
                         href="/"
-                        className="nav__menu-link hide-nav"
+                        className={`nav__menu-link hide-nav ${
+                          router.pathname === "/" ? "active" : ""
+                        }`}
                       >
                         Home
                       </Link>
                     </li>
                     <li className="nav__menu-item">
                       <Link
-                         //href="#" onClick={(e) => e.preventDefault()}
+                        //href="#" onClick={(e) => e.preventDefault()}
                         href="/about-us"
-                        className="nav__menu-link hide-nav"
+                        className={`nav__menu-link hide-nav ${
+                          router.pathname === "/about-us" ? "active" : ""
+                        }`}
                       >
                         About Us
                       </Link>
                     </li>
                     <li className="nav__menu-item">
                       <Link
-                        href="#" onClick={(e) => e.preventDefault()}
-                        className="nav__menu-link hide-nav"
+                        href="/services"
+                        className={`nav__menu-link hide-nav ${
+                          router.pathname === "/services" ? "active" : ""
+                        }`}
                       >
-                        Serviecs
+                        Services
                       </Link>
                     </li>
                     <li className="nav__menu-item">
                       <Link
-                        href="#" onClick={(e) => e.preventDefault()}
+                        href="#"
+                        onClick={(e) => e.preventDefault()}
                         className="nav__menu-link hide-nav"
                       >
                         Portfolio
@@ -247,7 +262,8 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                     </li>
                     <li className="nav__menu-item">
                       <Link
-                        href="#" onClick={(e) => e.preventDefault()}
+                        href="#"
+                        onClick={(e) => e.preventDefault()}
                         className="nav__menu-link hide-nav"
                       >
                         Resources
@@ -392,13 +408,25 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                     </li> */}
                   </ul>
                   <div className="social">
-                    <Link href="#" onClick={(e) => e.preventDefault()} aria-label="social media">
+                    <Link
+                      href="#"
+                      onClick={(e) => e.preventDefault()}
+                      aria-label="social media"
+                    >
                       <i className="fa-brands fa-twitter"></i>
                     </Link>
-                    <Link href="https://www.linkedin.com/company/mindlytic-ai/posts/?feedView=all" target="_blank" aria-label="social media">
+                    <Link
+                      href="https://www.linkedin.com/company/mindlytic-ai/posts/?feedView=all"
+                      target="_blank"
+                      aria-label="social media"
+                    >
                       <i className="fa-brands fa-linkedin-in"></i>
                     </Link>
-                    <Link href="#" onClick={(e) => e.preventDefault()} aria-label="social media">
+                    <Link
+                      href="#"
+                      onClick={(e) => e.preventDefault()}
+                      aria-label="social media"
+                    >
                       <i className="fa-brands fa-instagram"></i>
                     </Link>
                   </div>

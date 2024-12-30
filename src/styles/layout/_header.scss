@@ -281,7 +281,9 @@
   .nav__menu-link {
     color: $white;
     &:hover {
-      color: $septenary-color;
+      background: linear-gradient(to right, #2cc1ec, #7a34d6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
   }
 
@@ -383,6 +385,13 @@
     }
   }
 }
+
+.nav__menu-link.active{
+    background: linear-gradient(to right, #2cc1ec, #7a34d6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 /* ==== 
  --------- (4.1) header styles end ---------
