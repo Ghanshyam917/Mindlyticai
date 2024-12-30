@@ -88,7 +88,7 @@ const GenerateThree = () => {
               >
                 <div className="rangu rangu-two">
                   <p>
-                    Streamline your workflow and bring clarity to your data with ease. Our Generative AI service processes extensive datasets to classify and categorize information effectively, ensuring efficient and intuitive data retrieval. From sorting customer feedback to organizing product inventories, we simplify your data management. With powerful AI-driven insights, uncover hidden patterns and trends to make informed decisions. Let us bring order and structure to your data universe, transforming complexity into simplicity. Additionally, our solutions evolve with your business, adapting to new data sources and requirements, ensuring long-term scalability.
+                    Streamline your workflow and bring clarity to your data with ease. Our Generative AI service processes extensive datasets to classify and categorize information effectively, ensuring efficient and intuitive data retrieval. From sorting customer feedback to organizing product inventories, we simplify your data management. With powerful AI-driven insights, uncover hidden patterns and trends to make informed decisions. Let us bring order and structure to your da ta universe, transforming complexity into simplicity. Additionally, our solutions evolve with your business, adapting to new data sources and requirements, ensuring long-term scalability.
                   </p>
                 </div>
               </div>
@@ -110,7 +110,7 @@ const GenerateThree = () => {
               >
                 <div className="rangu rangu-three">
                   <p>
-                  Quickly grasp the essence of even the most extensive content. Our Generative AI solutions read and analyze large volumes of text, delivering concise and coherent summaries tailored to your needs. Whether it’s research papers, lengthy articles, or reports, we ensure you get the crux without the need to sift through pages. Save time and focus on what matters most with summaries that retain critical insights. With our AI-powered tools, stay informed and make decisions faster, effortlessly cutting through the noise. Additionally, our solutions can be customized to highlight the specific information you need, saving you even more time and effort.
+                  Quickly grasp the essence of even the most extensive content. Our Generative AI solutions read and analyze large volumes of text, delivering concise and coherent summaries tailored to your needs. Whether it&apos;s research papers, lengthy articles, or reports, we ensure you get the crux without the need to sift through pages. Save time and focus on what matters most with summaries that retain critical insights. With our AI-powered tools, stay informed and make decisions faster, effortlessly cutting through the noise. Additionally, our solutions can be customized to highlight the specific information you need, saving you even more time and effort.
                   </p>
                 </div>
               </div>
@@ -121,7 +121,7 @@ const GenerateThree = () => {
               >
                 <div className="rangu rangu-one">
                   <p>
-                  Leverage the full potential of Generative AI for both structured and open-ended question-answering systems. Our AI models efficiently process large datasets to deliver accurate answers to specific questions and provide detailed responses to open-ended inquiries. Whether it's for customer service or research support, our QA solutions are designed to empower your operations. Additionally, our AI-driven chatbots offer an engaging and seamless customer experience, capable of understanding natural language and providing personalized responses tailored to individual preferences and interactions. Enhance customer satisfaction and streamline communication with intelligent, conversational solutions.
+                  Leverage the full potential of Generative AI for both structured and open-ended question-answering systems. Our AI models efficiently process large datasets to deliver accurate answers to specific questions and provide detailed responses to open-ended inquiries. Whether it&apos;s for customer service or research support, our QA solutions are designed to empower your operations. Additionally, our AI-driven chatbots offer an engaging and seamless customer experience, capable of understanding natural language and providing personalized responses tailored to individual preferences and interactions. Enhance customer satisfaction and streamline communication with intelligent, conversational solutions.
                   </p>
                 </div>
               </div>
