@@ -12,7 +12,7 @@ import CtaOne from "@/components/containers/cta/CtaOne";
 const AboutUs = () => {
   return (
     <Layout header={true} footer={1}>
-      <Banner desc="About Mindlytic AI" page="About Us" />
+      <Banner desc="About Mindlytic AI" page="About Us" cls="about"/>
       <AboutClone />
       <AboutSponsor />
       <EraserTwo />

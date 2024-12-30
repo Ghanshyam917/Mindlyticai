@@ -575,13 +575,13 @@
   }
 
   .case-one-in {
-    background-image: url("../../../public/images/case/one.png");
+    background-image: url("../../../public/images/case/one.jpg");
   }
   .case-two-in {
-    background-image: url("../../../public/images/case/three.png");
+    background-image: url("../../../public/images/case/three.jpg");
   }
   .case-three-in {
-    background-image: url("../../../public/images/case/two.png");
+    background-image: url("../../../public/images/case/two.jpg");
   }
   .case-four-in {
     background-image: url("../../../public/images/case/four.png");
@@ -603,6 +603,15 @@
   }
   .case-ten-in {
     background-image: url("../../../public/images/case/one.png");
+  }
+  .ser-case-one{
+    background-image: url("../../../public/images/services/res1.jpg");
+  }
+  .ser-case-two{
+    background-image: url("../../../public/images/services/res2.jpg");
+  }
+  .ser-case-three{
+    background-image: url("../../../public/images/services/res3.jpg");
   }
 }
 
@@ -1369,13 +1378,15 @@
     width: 100%;
     height: calc(500% - 40px);
     padding: 20px;
-    background-color: $white;
+    background-color: #111827;
     border-radius: 20px;
+    border: 1px solid #2ac3ef;
   }
   .rangu {
     position: relative;
-    height: 500px;
-    max-height: 500px;
+    height: auto;
+    // height: 500px;
+    // max-height: 500px;
     .img {
       position: absolute;
       top: 0;
@@ -1444,6 +1455,8 @@
 
   .rangu > * {
     height: 100%;
+    color: white;
+    text-align: left;
   }
 
   .rangu-one {
@@ -4025,13 +4038,24 @@
     font-weight: 600;
  }
  
- .work_heading,.nav__logo p,.footer__single .logo p,.fa-phone,.fa-envelope,.fa-location-dot{
+ .work_heading,.fa-phone,.fa-envelope,.fa-location-dot{
   background: linear-gradient(to right, #2cc1ec, #7a34d6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
  }
- 
+ .nav__logo p:nth-child(1),.footer__single .logo p:nth-child(1){
+  background: linear-gradient(to right, #2cc1ec, #7a34d6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 18px;
+ }
+ .nav__logo p:nth-child(2),.footer__single .logo p:nth-child(2){
+  color: rgb(255 75 141)!important;
+  font-size: 7px;
+  letter-spacing: 1px;
+  line-height: 15px;
+ }
  .fa-location-dot{
   margin-top: 7px;
  }

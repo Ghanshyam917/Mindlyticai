@@ -50,7 +50,8 @@
 // banner two
 
 .banner-two {
-  padding: 310px 0px 220px;
+  // padding: 310px 0px 220px;
+  padding: 100px 0px 100px;
   overflow: hidden !important;
   position: relative;
   background-image: url("../../../public/images/banner/banner-two-bg-light.png");
@@ -293,6 +294,9 @@
 }
 .cmn-banner_about{
   background-image: url("../../../public/images/banner/aboutbanner.jpg");
+}
+.cmn-banner_service{
+  background-image: url("../../../public/images/banner/servicebanner.jpg");
 }
 @media screen and (min-width:1000px){
   .banner-one{

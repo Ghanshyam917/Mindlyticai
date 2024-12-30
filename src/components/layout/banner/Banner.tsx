@@ -4,9 +4,9 @@ import Link from "next/link";
 import AnimeOne from "../../../../public/images/anime-one.png";
 import AnimeTwo from "../../../../public/images/anime-two.png";
 
-const Banner = ({ desc, page }: any) => {
+const Banner = ({ desc, page,cls }: any) => {
   return (
-    <section className="section cmn-banner cmn-banner_about fst_cmn_banner">
+    <section className={`section cmn-banner cmn-banner_${cls} fst_cmn_banner`}>
       <div className="container">
         <div className="row">
           <div className="col-12">

@@ -19,11 +19,14 @@ const Footer = () => {
               data-aos-duration="600"
             >
               <h5 className="">
-                <div className="logo text-center text-lg-start footerlogo d-flex align-items-center gap-3">
+                <div className="logo text-center text-lg-start footerlogo d-flex align-items-center gap-1">
                   <Link href="/">
                     <Image src={logo} alt="Image" />
                   </Link>
-                  {/* <p>Mindlytic AI</p> */}
+                  <div className="mt-1">
+                    <p>Mindlytic AI</p>
+                    <p>Think AI,Think Us</p>
+                  </div>
                 </div>
               </h5>
               <ul className="footer_contentul">
@@ -69,7 +72,7 @@ const Footer = () => {
                   <Link href="/about-us">About Us</Link>
                 </li>
                 <li>
-                  <Link href="#" onClick={(e) => e.preventDefault()}>Services</Link>
+                  <Link href="/services">Services</Link>
                 </li>
                 <li>
                   <Link href="#" onClick={(e) => e.preventDefault()}>Portfolio</Link>
