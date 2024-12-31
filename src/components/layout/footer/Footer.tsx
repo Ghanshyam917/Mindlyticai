@@ -23,10 +23,12 @@ const Footer = () => {
                   <Link href="/">
                     <Image src={logo} alt="Image" />
                   </Link>
-                  <div className="mt-1">
-                    <p>Mindlytic AI</p>
-                    <p>Think AI,Think Us</p>
-                  </div>
+                  <Link href="/">
+                    <div className="mt-1">
+                      <p>Mindlytic AI</p>
+                      <p>Think AI,Think Us</p>
+                    </div>
+                  </Link>
                 </div>
               </h5>
               <ul className="footer_contentul">
@@ -42,13 +44,25 @@ const Footer = () => {
                   {/* <Link href="#" onClick={(e) => e.preventDefault()} aria-label="social media">
                     <i className="fa-brands fa-facebook-f"></i>
                   </Link> */}
-                  <Link href="#" onClick={(e) => e.preventDefault()} aria-label="social media">
+                  <Link
+                    href="#"
+                    onClick={(e) => e.preventDefault()}
+                    aria-label="social media"
+                  >
                     <i className="fa-brands fa-twitter"></i>
                   </Link>
-                  <Link href="https://www.linkedin.com/company/mindlytic-ai/posts/?feedView=all" target="_blank" aria-label="social media">
+                  <Link
+                    href="https://www.linkedin.com/company/mindlytic-ai/posts/?feedView=all"
+                    target="_blank"
+                    aria-label="social media"
+                  >
                     <i className="fa-brands fa-linkedin-in"></i>
                   </Link>
-                  <Link href="#" onClick={(e) => e.preventDefault()} aria-label="social media">
+                  <Link
+                    href="#"
+                    onClick={(e) => e.preventDefault()}
+                    aria-label="social media"
+                  >
                     <i className="fa-brands fa-instagram"></i>
                   </Link>
                 </div>
@@ -65,7 +79,9 @@ const Footer = () => {
               <h5 className="h5">Links</h5>
               <ul>
                 <li>
-                  <Link href="#" onClick={(e) => e.preventDefault()}>Home</Link>
+                  <Link href="#" onClick={(e) => e.preventDefault()}>
+                    Home
+                  </Link>
                 </li>
                 <li>
                   {/* <Link href="#" onClick={(e) => e.preventDefault()}>About Us</Link> */}
@@ -75,10 +91,14 @@ const Footer = () => {
                   <Link href="/services">Services</Link>
                 </li>
                 <li>
-                  <Link href="#" onClick={(e) => e.preventDefault()}>Portfolio</Link>
+                  <Link href="#" onClick={(e) => e.preventDefault()}>
+                    Portfolio
+                  </Link>
                 </li>
                 <li>
-                  <Link href="#" onClick={(e) => e.preventDefault()}>Resources</Link>
+                  <Link href="#" onClick={(e) => e.preventDefault()}>
+                    Resources
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -121,27 +141,28 @@ const Footer = () => {
               <h5 className="h5">Contact Us</h5>
               <ul>
                 <li className="text-light d-flex gap-3">
-                <i className="fa-solid fa-location-dot"></i>{" "}
-                    <p>
-                    Office-1/321,Laxmi Enclave-1,opp.Gajera School,Katargam,Surat-395004.
+                  <i className="fa-solid fa-location-dot"></i>{" "}
+                  <p>
+                    Office-1/321,Laxmi Enclave-1,opp.Gajera
+                    School,Katargam,Surat-395004.
                   </p>
-                  </li>  
-                  <li className="text-light d-flex align-items-center gap-3">
-                    <i className="fa-solid fa-phone"></i>{" "}
-                    <a href="tel: +916355528336"> +91 63555 28336</a>
-                  </li>   
-                  <li className="text-light d-flex gap-3">
-                    <i className="fa-solid fa-envelope mt-2"></i>
-                    <div>
-                      <a href="mailto:mindlyticai@gmail.com">
-                        mindlyticai@gmail.com
-                      </a>
-                      <br />
-                      <a href="mailto:sales.mindlyticai@gmail.com">
-                        sales.mindlyticai@gmail.com
-                      </a>
-                    </div>
-                  </li>
+                </li>
+                <li className="text-light d-flex align-items-center gap-3">
+                  <i className="fa-solid fa-phone"></i>{" "}
+                  <a href="tel: +916355528336"> +91 63555 28336</a>
+                </li>
+                <li className="text-light d-flex gap-3">
+                  <i className="fa-solid fa-envelope mt-2"></i>
+                  <div>
+                    <a href="mailto:mindlyticai@gmail.com">
+                      mindlyticai@gmail.com
+                    </a>
+                    <br />
+                    <a href="mailto:sales.mindlyticai@gmail.com">
+                      sales.mindlyticai@gmail.com
+                    </a>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
@@ -161,7 +182,7 @@ const Footer = () => {
                   <p className="text-center">
                     Copyright &copy;
                     <span id="copyYear"> {currentYear} </span>
-                     MindyticAI - All Rights Reserve.
+                    MindyticAI - All Rights Reserve.
                   </p>
                 </div>
               </div>

@@ -43,10 +43,10 @@ const ServiceRes = () => {
                   <p>
                   Embed personalized AI support, track interactions, and extract valuable insights. With Help Hub, every exchange fosters meaningful growth.
                   </p>
-                  <Link href="#" onClick={(e) => e.preventDefault()}>
+                  {/* <Link href="#" onClick={(e) => e.preventDefault()}>
                     View Details
                     <i className="fa-solid fa-angles-right"></i>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
 
@@ -59,10 +59,10 @@ const ServiceRes = () => {
                   <p>
                   Human Resources (HR) is evolving rapidly, driven by the transformative power of Artificial Intelligence (AI).
                   </p>
-                  <Link href="#" onClick={(e) => e.preventDefault()}>
+                  {/* <Link href="#" onClick={(e) => e.preventDefault()}>
                     View Details
                     <i className="fa-solid fa-angles-right"></i>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
 
@@ -75,10 +75,10 @@ const ServiceRes = () => {
                   <p>
                   An in-depth look at how natural language processing and other AI technologies are revolutionizing chatbots, virtual assistants for enhanced user experiences.
                   </p>
-                  <Link href="#" onClick={(e) => e.preventDefault()}>
+                  {/* <Link href="#" onClick={(e) => e.preventDefault()}>
                     View Details
                     <i className="fa-solid fa-angles-right"></i>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>

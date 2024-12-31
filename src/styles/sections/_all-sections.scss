@@ -528,7 +528,7 @@
 
       p {
         color: $quaternary-color;
-        margin-bottom: 30px;
+        // margin-bottom: 30px;
       }
 
       a {
@@ -4048,13 +4048,14 @@
   background: linear-gradient(to right, #2cc1ec, #7a34d6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  line-height: 18px;
+  line-height: 23px;
+  font-size: 20px;
  }
  .nav__logo p:nth-child(2),.footer__single .logo p:nth-child(2){
   color: rgb(255 75 141)!important;
-  font-size: 7px;
+  font-size: 10px;
   letter-spacing: 1px;
-  line-height: 15px;
+  line-height: 16px;
  }
  .fa-location-dot{
   margin-top: 7px;

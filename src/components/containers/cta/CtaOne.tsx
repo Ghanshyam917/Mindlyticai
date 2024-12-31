@@ -21,7 +21,7 @@ const CtaOne = () => {
                 business.
               </p>
               <div className="form-cta">
-                <Link href="#" onClick={(e) => e.preventDefault()} className="btn btn--quinary">
+                <Link href="https://calendly.com/hr-mindlyticai/30min" target="_blank" className="btn btn--quinary">
                   Schedule Call
                 </Link>
               </div>

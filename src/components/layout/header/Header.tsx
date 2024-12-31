@@ -129,10 +129,12 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                       className="nav_logo"
                     />
                   </Link>
+                  <Link href="/">
                   <div className="mt-1">
                     <p>Mindlytic AI</p>
                     <p>Think AI,Think Us</p>
                   </div>
+                  </Link>
                 </div>
                 <div
                   className={

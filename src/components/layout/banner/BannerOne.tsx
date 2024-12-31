@@ -18,8 +18,8 @@ const BannerOne = () => {
               <h1 className="h1 bannerHeading1">Unlock the Power of AI for Your Business Transformation</h1>
               <p className="bannerpara">Envision greatness for your business as we infuse the magic of AI innovation. Join us on this transformative journey.</p>
               <div className="section__content-cta">
-                <Link href="#" onClick={(e) => e.preventDefault()} className="btn btn--secondary">
-                  Explore AI Solution
+                <Link href="/about-us" className="btn btn--secondary">
+                  Read More
                 </Link>
               </div>
             </div>

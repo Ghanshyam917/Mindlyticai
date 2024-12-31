@@ -47,10 +47,10 @@ const WorkForce = () => {
                     to personalize customer experiences and optimize sales
                     processes.
                   </p>
-                  <Link href="#" onClick={(e) => e.preventDefault()}>
+                  {/* <Link href="#" onClick={(e) => e.preventDefault()}>
                     View Details
                     <i className="fa-solid fa-angles-right"></i>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
 
@@ -65,10 +65,10 @@ const WorkForce = () => {
                     innovative content, enhancing creativity in design, writing,
                     and multimedia production.
                   </p>
-                  <Link href="#" onClick={(e) => e.preventDefault()}>
+                  {/* <Link href="#" onClick={(e) => e.preventDefault()}>
                     View Details
                     <i className="fa-solid fa-angles-right"></i>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
 
@@ -83,10 +83,10 @@ const WorkForce = () => {
                     inefficiencies, and improves overall productivity within an
                     organization.
                   </p>
-                  <Link href="#" onClick={(e) => e.preventDefault()}>
+                  {/* <Link href="#" onClick={(e) => e.preventDefault()}>
                     View Details
                     <i className="fa-solid fa-angles-right"></i>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
 
