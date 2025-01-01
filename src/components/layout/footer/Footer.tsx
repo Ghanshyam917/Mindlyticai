@@ -91,7 +91,7 @@ const Footer = () => {
                   <Link href="/services">Services</Link>
                 </li>
                 <li>
-                  <Link href="#" onClick={(e) => e.preventDefault()}>
+                  <Link href="portfolio">
                     Portfolio
                   </Link>
                 </li>
