@@ -255,9 +255,9 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                     </li>
                     <li className="nav__menu-item">
                       <Link
-                        href="/blog-two"
+                        href="/portfolio"
                         className={`nav__menu-link hide-nav ${
-                          router.pathname === "/blog-two" ? "active" : ""
+                          router.pathname === "/portfolio" ? "active" : ""
                         }`}
                       >
                         Portfolio
