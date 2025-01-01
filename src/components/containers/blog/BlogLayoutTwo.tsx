@@ -1,18 +1,16 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
-// import four from "../../../../public/images/blog/four.png";
-// import five from "../../../../public/images/blog/five.png";
-// import six from "../../../../public/images/blog/six.png";
-// import seven from "../../../../public/images/blog/seven.png";
-// import eight from "../../../../public/images/blog/eight.png";
-// import nine from "../../../../public/images/blog/nine.png";
-// import ten from "../../../../public/images/blog/ten.png";
-// import eleven from "../../../../public/images/blog/eleven.png";
-// import twelve from "../../../../public/images/blog/twelve.png";
-// import thirteen from "../../../../public/images/blog/thirteen.png";
-// import fourteen from "../../../../public/images/blog/fourteen.png";
-// import fifteen from "../../../../public/images/blog/fifteen.png";
+import Image from "next/image";
+import four from "../../../../public/images/blog/four.png";
+import five from "../../../../public/images/blog/five.png";
+import six from "../../../../public/images/blog/six.png";
+import seven from "../../../../public/images/blog/seven.png";
+import eight from "../../../../public/images/blog/eight.png";
+import nine from "../../../../public/images/blog/nine.png";
+import ten from "../../../../public/images/blog/ten.png";
+import eleven from "../../../../public/images/blog/eleven.png";
+import twelve from "../../../../public/images/blog/twelve.png";
+import thirteen from "../../../../public/images/blog/thirteen.png";
 
 const BlogLayoutTwo = () => {
   return (
@@ -26,26 +24,21 @@ const BlogLayoutTwo = () => {
               data-aos-duration="600"
             >
               <div className="thumb">
-                <Link href="/blog-single">
-                  {/* <Image src={four} alt="Image" /> */}
+                <Link href="https://smodin.io/" target="_blank">
+                  <Image src={four} alt="Image" />
                 </Link>
-                <div className="publish-date">
-                  <h4 className="h4">21</h4>
-                  <p>JAN</p>
-                </div>
               </div>
               <div className="content">
                 <div className="tag">
-                  <Link href="/blog-single">tech</Link>
+                  <Link href="https://smodin.io/" target="_blank">smodin.io</Link>
                 </div>
                 <h4 className="h4">
-                  <Link href="/blog-single">
-                    It is a long established fact that a reader will be
-                    distracted
+                  <Link href="https://smodin.io/" target="_blank">
+                    Get high-quality, structured text complete with references
                   </Link>
                 </h4>
                 <div className="cta">
-                  <Link href="/blog-single">
+                  <Link href="https://smodin.io/" target="_blank">
                     <i className="tech-arrow-top"></i>
                   </Link>
                 </div>
@@ -59,25 +52,21 @@ const BlogLayoutTwo = () => {
               data-aos-duration="600"
             >
               <div className="thumb">
-                <Link href="/blog-single">
-                  {/* <Image src={five} alt="Image" /> */}
+                <Link href="https://brainsy.ai/" target="_blank">
+                  <Image src={five} alt="Image" />
                 </Link>
-                <div className="publish-date">
-                  <h4 className="h4">21</h4>
-                  <p>JAN</p>
-                </div>
               </div>
               <div className="content">
                 <div className="tag">
-                  <Link href="/blog-single">tech</Link>
+                  <Link href="https://brainsy.ai/" target="_blank">brainsy.ai</Link>
                 </div>
                 <h4 className="h4">
-                  <Link href="/blog-single">
-                    There are many variations of passages of Lorem Ipsum
+                  <Link href="https://brainsy.ai/" target="_blank">
+                  Your all-in-one solution for smart, personalized learning experiences!
                   </Link>
                 </h4>
                 <div className="cta">
-                  <Link href="/blog-single">
+                  <Link href="https://brainsy.ai/" target="_blank">
                     <i className="tech-arrow-top"></i>
                   </Link>
                 </div>
@@ -91,26 +80,22 @@ const BlogLayoutTwo = () => {
               data-aos-duration="600"
             >
               <div className="thumb">
-                <Link href="/blog-single">
-                  {/* <Image src={six} alt="Image" /> */}
+                <Link href="https://www.leadbird.io/" target="_blank">
+                  <Image src={six} alt="Image" />
                 </Link>
-                <div className="publish-date">
-                  <h4 className="h4">21</h4>
-                  <p>JAN</p>
-                </div>
               </div>
               <div className="content">
                 <div className="tag">
-                  <Link href="/blog-single">tech</Link>
+                  <Link href="https://www.leadbird.io/" target="_blank">leadbird.io</Link>
                 </div>
                 <h4 className="h4">
-                  <Link href="/blog-single">
-                    Power of a great photo backdrop — in just a few steps, you
-                    can
+                  <Link href="https://www.leadbird.io/" target="_blank">
+                    LeadBird is a B2B Lead Generation Agency trusted
+                    by over 100 active clients.
                   </Link>
                 </h4>
                 <div className="cta">
-                  <Link href="/blog-single">
+                  <Link href="https://www.leadbird.io/" target="_blank">
                     <i className="tech-arrow-top"></i>
                   </Link>
                 </div>
@@ -124,25 +109,21 @@ const BlogLayoutTwo = () => {
               data-aos-duration="600"
             >
               <div className="thumb">
-                <Link href="/blog-single">
-                  {/* <Image src={seven} alt="Image" /> */}
+                <Link href="https://vendisys.com/" target="_blank">
+                  <Image src={seven} alt="Image" />
                 </Link>
-                <div className="publish-date">
-                  <h4 className="h4">21</h4>
-                  <p>JAN</p>
-                </div>
               </div>
               <div className="content">
                 <div className="tag">
-                  <Link href="/blog-single">tech</Link>
+                  <Link href="https://vendisys.com/" target="_blank">vendisys.com</Link>
                 </div>
                 <h4 className="h4">
-                  <Link href="/blog-single">
-                    Contrary to popular belief, Lorem Ipsum is not simply random
+                  <Link href="https://vendisys.com/" target="_blank">
+                  We thrive on the high of working with disruptive technology companies
                   </Link>
                 </h4>
                 <div className="cta">
-                  <Link href="/blog-single">
+                  <Link href="https://vendisys.com/" target="_blank">
                     <i className="tech-arrow-top"></i>
                   </Link>
                 </div>
@@ -156,25 +137,22 @@ const BlogLayoutTwo = () => {
               data-aos-duration="600"
             >
               <div className="thumb">
-                <Link href="/blog-single">
-                  {/* <Image src={eight} alt="Image" /> */}
+                <Link href="https://writesonic.com/" target="_blank">
+                  <Image src={eight} alt="Image" />
                 </Link>
-                <div className="publish-date">
-                  <h4 className="h4">21</h4>
-                  <p>JAN</p>
-                </div>
               </div>
               <div className="content">
                 <div className="tag">
-                  <Link href="/blog-single">tech</Link>
+                  <Link href="https://writesonic.com/" target="_blank">writesonic.com</Link>
                 </div>
                 <h4 className="h4">
-                  <Link href="/blog-single">
-                    The standard chunk of Lorem Ipsum used since the 1500s is
+                  <Link href="https://writesonic.com/" target="_blank">
+                  Your Specialized AI Agent for
+                  Content, Marketing & Growth.
                   </Link>
                 </h4>
                 <div className="cta">
-                  <Link href="/blog-single">
+                  <Link href="https://writesonic.com/" target="_blank">
                     <i className="tech-arrow-top"></i>
                   </Link>
                 </div>
@@ -188,25 +166,21 @@ const BlogLayoutTwo = () => {
               data-aos-duration="600"
             >
               <div className="thumb">
-                <Link href="/blog-single">
-                  {/* <Image src={nine} alt="Image" /> */}
+                <Link href="https://www.topicvane.ai/" target="_blank">
+                  <Image src={nine} alt="Image" />
                 </Link>
-                <div className="publish-date">
-                  <h4 className="h4">21</h4>
-                  <p>JAN</p>
-                </div>
               </div>
               <div className="content">
                 <div className="tag">
-                  <Link href="/blog-single">tech</Link>
+                  <Link href="https://www.topicvane.ai/" target="_blank">topicvane.ai</Link>
                 </div>
                 <h4 className="h4">
-                  <Link href="/blog-single">
-                    making this the first true generat on the Internet
+                  <Link href="https://www.topicvane.ai/" target="_blank">
+                  TopicVane - Your Online Presence with AI-powered Tool and SEO
                   </Link>
                 </h4>
                 <div className="cta">
-                  <Link href="/blog-single">
+                  <Link href="https://www.topicvane.ai/" target="_blank">
                     <i className="tech-arrow-top"></i>
                   </Link>
                 </div>
@@ -220,25 +194,21 @@ const BlogLayoutTwo = () => {
               data-aos-duration="600"
             >
               <div className="thumb">
-                <Link href="/blog-single">
-                  {/* <Image src={ten} alt="Image" /> */}
+                <Link href="https://www.galambo.com/" target="_blank">
+                  <Image src={ten} alt="Image" />
                 </Link>
-                <div className="publish-date">
-                  <h4 className="h4">21</h4>
-                  <p>JAN</p>
-                </div>
               </div>
               <div className="content">
                 <div className="tag">
-                  <Link href="/blog-single">tech</Link>
+                  <Link href="https://www.galambo.com/" target="_blank">galambo.com</Link>
                 </div>
                 <h4 className="h4">
-                  <Link href="/blog-single">
-                    Various versions have evolved over the years
+                  <Link href="https://www.galambo.com/" target="_blank">
+                  your friendly AI-powered image-based search engine
                   </Link>
                 </h4>
                 <div className="cta">
-                  <Link href="/blog-single">
+                  <Link href="https://www.galambo.com/" target="_blank">
                     <i className="tech-arrow-top"></i>
                   </Link>
                 </div>
@@ -252,25 +222,21 @@ const BlogLayoutTwo = () => {
               data-aos-duration="600"
             >
               <div className="thumb">
-                <Link href="/blog-single">
-                  {/* <Image src={eleven} alt="Image" /> */}
+                <Link href="https://omodore.com/" target="_blank">
+                  <Image src={eleven} alt="Image" />
                 </Link>
-                <div className="publish-date">
-                  <h4 className="h4">21</h4>
-                  <p>JAN</p>
-                </div>
               </div>
               <div className="content">
                 <div className="tag">
-                  <Link href="/blog-single">tech</Link>
+                  <Link href="https://omodore.com/" target="_blank">omodore.com</Link>
                 </div>
                 <h4 className="h4">
-                  <Link href="/blog-single">
-                    even slightly believable. If you are going to use
+                  <Link href="https://omodore.com/" target="_blank">
+                    Transform Your Customer Engagement
                   </Link>
                 </h4>
                 <div className="cta">
-                  <Link href="/blog-single">
+                  <Link href="https://omodore.com/" target="_blank">
                     <i className="tech-arrow-top"></i>
                   </Link>
                 </div>
@@ -284,25 +250,22 @@ const BlogLayoutTwo = () => {
               data-aos-duration="600"
             >
               <div className="thumb">
-                <Link href="/blog-single">
-                  {/* <Image src={twelve} alt="Image" /> */}
+                <Link href="https://www.sms-magic.com/" target="_blank">
+                  <Image src={twelve} alt="Image" />
                 </Link>
-                <div className="publish-date">
-                  <h4 className="h4">21</h4>
-                  <p>JAN</p>
-                </div>
               </div>
               <div className="content">
                 <div className="tag">
-                  <Link href="/blog-single">tech</Link>
+                  <Link href="https://www.sms-magic.com/" target="_blank">sms-magic.com</Link>
                 </div>
                 <h4 className="h4">
-                  <Link href="/blog-single">
-                    written in 45 BC. This book is a treatise on the theory
+                  <Link href="https://www.sms-magic.com/" target="_blank">
+                  Better Engage with Your Audience Through Conversational
+                  Messaging
                   </Link>
                 </h4>
                 <div className="cta">
-                  <Link href="/blog-single">
+                  <Link href="https://www.sms-magic.com/" target="_blank">
                     <i className="tech-arrow-top"></i>
                   </Link>
                 </div>
@@ -316,89 +279,21 @@ const BlogLayoutTwo = () => {
               data-aos-duration="600"
             >
               <div className="thumb">
-                <Link href="/blog-single">
-                  {/* <Image src={thirteen} alt="Image" /> */}
+                <Link href="https://subtlereply.com/" target="_blank">
+                  <Image src={thirteen} alt="Image" />
                 </Link>
-                <div className="publish-date">
-                  <h4 className="h4">21</h4>
-                  <p>JAN</p>
-                </div>
               </div>
               <div className="content">
                 <div className="tag">
-                  <Link href="/blog-single">tech</Link>
+                  <Link href="https://subtlereply.com/" target="_blank">subtlereply.com</Link>
                 </div>
                 <h4 className="h4">
-                  <Link href="/blog-single">
-                    he generated Lorem Ipsum is therefore always
+                  <Link href="https://subtlereply.com/" target="_blank">
+                    transform your online engagement and connect with potential customer with AVA
                   </Link>
                 </h4>
                 <div className="cta">
-                  <Link href="/blog-single">
-                    <i className="tech-arrow-top"></i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-md-6 col-xl-4">
-            <div
-              className="news__slider-item"
-              data-aos="fade-up"
-              data-aos-duration="600"
-            >
-              <div className="thumb">
-                <Link href="/blog-single">
-                  {/* <Image src={fourteen} alt="Image" /> */}
-                </Link>
-                <div className="publish-date">
-                  <h4 className="h4">21</h4>
-                  <p>JAN</p>
-                </div>
-              </div>
-              <div className="content">
-                <div className="tag">
-                  <Link href="/blog-single">tech</Link>
-                </div>
-                <h4 className="h4">
-                  <Link href="/blog-single">
-                    Various versions have evolved over the years, sometimes
-                  </Link>
-                </h4>
-                <div className="cta">
-                  <Link href="/blog-single">
-                    <i className="tech-arrow-top"></i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-md-6 col-xl-4">
-            <div
-              className="news__slider-item"
-              data-aos="fade-up"
-              data-aos-duration="600"
-            >
-              <div className="thumb">
-                <Link href="/blog-single">
-                  {/* <Image src={fifteen} alt="Image" /> */}
-                </Link>
-                <div className="publish-date">
-                  <h4 className="h4">21</h4>
-                  <p>JAN</p>
-                </div>
-              </div>
-              <div className="content">
-                <div className="tag">
-                  <Link href="/blog-single">tech</Link>
-                </div>
-                <h4 className="h4">
-                  <Link href="/blog-single">
-                    will uncover many web sites still in their infancy
-                  </Link>
-                </h4>
-                <div className="cta">
-                  <Link href="/blog-single">
+                  <Link href="https://subtlereply.com/" target="_blank">
                     <i className="tech-arrow-top"></i>
                   </Link>
                 </div>

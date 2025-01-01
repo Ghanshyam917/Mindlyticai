@@ -5,8 +5,8 @@ import BlogLayoutTwo from "@/components/containers/blog/BlogLayoutTwo";
 
 const BlogTwo = () => {
   return (
-    <Layout header={true} footer={2}>
-      <Banner desc="Blog Layout 02" page="Blog Layout 02" />
+    <Layout header={true} footer={1}>
+      <Banner desc="Our Portfolio" page="Portfolio" cls="portfolio"/>
       <BlogLayoutTwo />
     </Layout>
   );

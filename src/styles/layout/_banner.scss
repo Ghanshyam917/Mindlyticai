@@ -237,7 +237,7 @@
 .cmn-banner {
   // margin-top: 118px;
   margin-top: 90px;
-  background-image: url("../../../public/images/banner/banner-bg.png");
+  // background-image: url("../../../public/images/banner/banner-bg.png");
   background-size: 100% 100%;
   background-position: left bottom;
   background-repeat: no-repeat;
@@ -254,7 +254,7 @@
       -webkit-text-fill-color: transparent;
     }
   }
-  
+
   .anime {
     img {
       position: absolute;
@@ -281,27 +281,65 @@
 //  Added By Ghanshyam
 
 .bannerHeading1 {
-  font-size: 37px!important;
-  line-height: 50px!important;
+  font-size: 37px !important;
+  line-height: 50px !important;
 }
-.bannerpara{
+.bannerpara {
   line-height: 20px;
-    font-size: 17px;
-    margin-top: 20px;
+  font-size: 17px;
+  margin-top: 20px;
 }
-.banner_heading6{
+.banner_heading6 {
   font-size: 22px;
 }
-.cmn-banner_about{
+.cmn-banner_service,.cmn-banner_about,.cmn-banner_portfolio {
+  z-index: 1;
+  position: relative;
+  background-color: black;
+}
+.cmn-banner_about::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  opacity: 0.5;
   background-image: url("../../../public/images/banner/aboutbanner.jpg");
 }
-.cmn-banner_service{
+
+.cmn-banner_service::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  opacity: 0.5;
   background-image: url("../../../public/images/banner/servicebanner.jpg");
 }
-@media screen and (min-width:1000px){
-  .banner-one{
+.cmn-banner_portfolio::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../../../public/images/banner/portfoliobanner.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  opacity: 0.5;
+}
+@media screen and (min-width: 1000px) {
+  .banner-one {
     height: calc(110vh - 60px);
     padding: 185px 0px 130px;
   }
 }
-

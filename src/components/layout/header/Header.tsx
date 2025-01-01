@@ -255,9 +255,10 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                     </li>
                     <li className="nav__menu-item">
                       <Link
-                        href="#"
-                        onClick={(e) => e.preventDefault()}
-                        className="nav__menu-link hide-nav"
+                        href="/blog-two"
+                        className={`nav__menu-link hide-nav ${
+                          router.pathname === "/blog-two" ? "active" : ""
+                        }`}
                       >
                         Portfolio
                       </Link>

@@ -3160,7 +3160,7 @@
       font-weight: 600;
       text-transform: capitalize;
       letter-spacing: 0px;
-      color: $theme-color;
+      color: $white;
       transition: $transition;
       &:hover {
         color: $primary-color;
@@ -3177,7 +3177,7 @@
     a {
       font-size: 18px;
       @include box(48px);
-      border: 1px solid rgba(0, 0, 0, 0.2);
+      border: 1px solid rgb(255 255 255 / 20%);
       &:hover {
         background-color: $white;
         color: $theme-color;
@@ -4103,7 +4103,9 @@
  .mission{
   border-right: 1px solid white;
  }
-
+ .news-section .cta a i{
+  color: white;
+ }
 //  @media only screen and (max-width:1440px) and (min-width:1400px){
 //   .about_corsec.eraser-two .eraser__slider-item{
 //     height: 390px!important;

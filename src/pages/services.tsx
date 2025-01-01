@@ -8,7 +8,7 @@ import GenerateThree from "@/components/containers/generate/GenerateThree";
 
 const services = () => {
   return (
-    <Layout header={true} footer={1}>
+    <Layout header={true} footer={1} >
       <Banner desc="Our Services" page="Services" cls="service"/>
       <BannerTwo />
       <ServiceRes />
