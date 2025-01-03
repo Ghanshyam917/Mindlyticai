@@ -127,7 +127,7 @@ const ContactMain: React.FC = () => {
                 <span>Let&apos;s talk.</span>
               </div>
               <p>
-                Get in touch with us for inquiries, support, or feedback—we're
+                Get in touch with us for inquiries, support, or feedback—we are
                 here to assist you anytime!
               </p>
               <div className="arrow">
