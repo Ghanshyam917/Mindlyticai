@@ -80,35 +80,6 @@ const BlogLayoutTwo = () => {
               data-aos-duration="600"
             >
               <div className="thumb">
-                <Link href="https://www.leadbird.io/" target="_blank">
-                  <Image src={six} alt="Image" />
-                </Link>
-              </div>
-              <div className="content">
-                <div className="tag">
-                  <Link href="https://www.leadbird.io/" target="_blank">leadbird.io</Link>
-                </div>
-                <h4 className="h4">
-                  <Link href="https://www.leadbird.io/" target="_blank">
-                    LeadBird is a B2B Lead Generation Agency trusted
-                    by over 100 active clients.
-                  </Link>
-                </h4>
-                <div className="cta">
-                  <Link href="https://www.leadbird.io/" target="_blank">
-                    <i className="tech-arrow-top"></i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-md-6 col-xl-4">
-            <div
-              className="news__slider-item"
-              data-aos="fade-up"
-              data-aos-duration="600"
-            >
-              <div className="thumb">
                 <Link href="https://vendisys.com/" target="_blank">
                   <Image src={seven} alt="Image" />
                 </Link>
@@ -294,6 +265,35 @@ const BlogLayoutTwo = () => {
                 </h4>
                 <div className="cta">
                   <Link href="https://subtlereply.com/" target="_blank">
+                    <i className="tech-arrow-top"></i>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-6 col-xl-4">
+            <div
+              className="news__slider-item"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+              <div className="thumb">
+                <Link href="https://www.leadbird.io/" target="_blank">
+                  <Image src={six} alt="Image" />
+                </Link>
+              </div>
+              <div className="content">
+                <div className="tag">
+                  <Link href="https://www.leadbird.io/" target="_blank">leadbird.io</Link>
+                </div>
+                <h4 className="h4">
+                  <Link href="https://www.leadbird.io/" target="_blank">
+                    LeadBird is a B2B Lead Generation Agency trusted
+                    by over 100 active clients.
+                  </Link>
+                </h4>
+                <div className="cta">
+                  <Link href="https://www.leadbird.io/" target="_blank">
                     <i className="tech-arrow-top"></i>
                   </Link>
                 </div>

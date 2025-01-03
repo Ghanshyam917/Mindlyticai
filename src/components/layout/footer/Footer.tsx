@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import AnimeOne from "../../../../public/images/footer-anime-one.png";
 import AnimeTwo from "../../../../public/images/footer-anime-two.png";
-import LogoTwo from "../../../../public/images/logo-two.png";
 import logo from "../../../../public/images/logo/logo.png";
 
 const Footer = () => {
@@ -96,8 +95,8 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" onClick={(e) => e.preventDefault()}>
-                    Resources
+                  <Link href="/contact-us">
+                    Contact Us
                   </Link>
                 </li>
               </ul>
@@ -154,8 +153,8 @@ const Footer = () => {
                 <li className="text-light d-flex gap-3">
                   <i className="fa-solid fa-envelope mt-2"></i>
                   <div>
-                    <a href="mailto:mindlyticai@gmail.com">
-                      mindlyticai@gmail.com
+                    <a href="mailto:hr.mindlyticai@gmail.com">
+                      hr.mindlyticai@gmail.com
                     </a>
                     <br />
                     <a href="mailto:sales.mindlyticai@gmail.com">
