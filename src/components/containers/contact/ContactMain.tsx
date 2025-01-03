@@ -64,7 +64,7 @@ const ContactMain: React.FC = () => {
         : "Invalid email format.",
       ContactNo: /^\d{10}$/.test(formData.ContactNo)
         ? ""
-        : "Contact number must be exactly 10 digits.",
+        : "Contact number must be 10 digits.",
       Message: formData.Message.trim() ? "" : "Message cannot be empty.",
     };
     setErrors(newErrors);
