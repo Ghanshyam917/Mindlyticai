@@ -185,7 +185,7 @@ const ContactMain: React.FC = () => {
                 <div className="contact_inp">
                   <div className="group-input">
                     <input
-                      type="text"
+                      type="number"
                       name="ContactNo"
                       value={formData.ContactNo}
                       onChange={handleInputChange}

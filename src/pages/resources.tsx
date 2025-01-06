@@ -5,15 +5,15 @@ import UseCaseMain from "@/components/containers/use-case/UseCaseMain";
 import CtaAbout from "@/components/containers/cta/CtaAbout";
 import FaqLight from "@/components/containers/faq/FaqLight";
 
-const UseCase = () => {
+const resources = () => {
   return (
-    <Layout header={true} footer={2}>
-      <Banner desc="Use Case" page="Use Case" />
+    <Layout header={true} footer={1}>
+      <Banner desc="Resources" page="Resources" cls="resources"/>
       <UseCaseMain />
-      <FaqLight />
-      <CtaAbout />
+      {/* <FaqLight />
+      <CtaAbout /> */}
     </Layout>
   );
 };
 
-export default UseCase;
+export default resources;

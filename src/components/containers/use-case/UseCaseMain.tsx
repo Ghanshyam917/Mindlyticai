@@ -14,171 +14,79 @@ const UseCaseMain = () => {
   return (
     <section className="section use-case">
       <div className="container">
-        <div className="row items-gap">
-          <div className="col-12 col-sm-6 col-xl-3">
+        <div className="row items-gap justify-content-center">
+          <div className="col-12 col-sm-6 col-xl-4">
             <div
               className="use-case__item"
               data-aos="fade-up"
               data-aos-duration="600"
             >
-              <div className="thumb">
+              {/* <div className="thumb">
                 <Image src={one} alt="Image" />
-              </div>
+              </div> */}
               <div className="content">
-                <h5 className="h5">
-                  <Link href="/use-case-single"> Website Copy & SEO</Link>
+                <h5 className="h5 text-light">
+                  Generative AI
                 </h5>
                 <p>
-                  The advanced AI technology makes our background eraser tool
-                  easy to use. The image.
+                  Digisage revolutionizes digital learning by utilizing AI to
+                  transform videos and documents into structured courses,
+                  removing the need for human intervention.
                 </p>
+                <Link href="/res-genai">
+                  View Details
+                  <i className="fa-solid fa-angles-right"></i>
+                </Link>
               </div>
             </div>
           </div>
-          <div className="col-12 col-sm-6 col-xl-3">
+          <div className="col-12 col-sm-6 col-xl-4">
             <div
               className="use-case__item"
               data-aos="fade-up"
               data-aos-duration="600"
               data-aos-delay="200"
             >
-              <div className="thumb">
+              {/* <div className="thumb">
                 <Image src={two} alt="Image" />
-              </div>
+              </div> */}
               <div className="content">
-                <h5 className="h5">
-                  <Link href="/use-case-single">Social Media & Ads</Link>
+                <h5 className="h5 text-light">
+                  Deep Learning
                 </h5>
                 <p>
-                  The advanced AI technology makes our background eraser tool
-                  easy to use. The image.
+                  The entertainment industry has undergone significant changes,
+                  from cinema to home video, and from cable networks to
+                  on-demand platforms.
                 </p>
+                <Link href="/res-deepLearn">
+                  View Details
+                  <i className="fa-solid fa-angles-right"></i>
+                </Link>
               </div>
             </div>
           </div>
-          <div className="col-12 col-sm-6 col-xl-3">
+          <div className="col-12 col-sm-6 col-xl-4">
             <div
               className="use-case__item"
               data-aos="fade-up"
               data-aos-duration="600"
               data-aos-delay="500"
             >
-              <div className="thumb">
+              {/* <div className="thumb">
                 <Image src={three} alt="Image" />
-              </div>
+              </div> */}
               <div className="content">
-                <h5 className="h5">
-                  <Link href="/use-case-single">Blog Section Writing</Link>
+                <h5 className="h5 text-light">
+                  Machine Learning
                 </h5>
                 <p>
-                  The advanced AI technology makes our background eraser tool
-                  easy to use. The image.
+                Starbucks has grown beyond a coffee retailer to become a tech innovator, using AI to improve customer experiences and optimize operations.
                 </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-sm-6 col-xl-3">
-            <div
-              className="use-case__item"
-              data-aos="fade-up"
-              data-aos-duration="600"
-              data-aos-delay="800"
-            >
-              <div className="thumb">
-                <Image src={four} alt="Image" />
-              </div>
-              <div className="content">
-                <h5 className="h5">
-                  <Link href="/use-case-single">eCommerce Copy</Link>
-                </h5>
-                <p>
-                  The advanced AI technology makes our background eraser tool
-                  easy to use. The image.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-sm-6 col-xl-3">
-            <div
-              className="use-case__item"
-              data-aos="fade-up"
-              data-aos-duration="600"
-              data-aos-delay="200"
-            >
-              <div className="thumb">
-                <Image src={five} alt="Image" />
-              </div>
-              <div className="content">
-                <h5 className="h5">
-                  <Link href="/use-case-single">Digital Ad Copy</Link>
-                </h5>
-                <p>
-                  The advanced AI technology makes our background eraser tool
-                  easy to use. The image.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-sm-6 col-xl-3">
-            <div
-              className="use-case__item"
-              data-aos="fade-up"
-              data-aos-duration="600"
-              data-aos-delay="500"
-            >
-              <div className="thumb">
-                <Image src={six} alt="Image" />
-              </div>
-              <div className="content">
-                <h5 className="h5">
-                  <Link href="/use-case-single">Job Description</Link>
-                </h5>
-                <p>
-                  The advanced AI technology makes our background eraser tool
-                  easy to use. The image.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-sm-6 col-xl-3">
-            <div
-              className="use-case__item"
-              data-aos="fade-up"
-              data-aos-duration="600"
-              data-aos-delay="800"
-            >
-              <div className="thumb">
-                <Image src={seven} alt="Image" />
-              </div>
-              <div className="content">
-                <h5 className="h5">
-                  <Link href="/use-case-single">Testimonial & Review</Link>
-                </h5>
-                <p>
-                  The advanced AI technology makes our background eraser tool
-                  easy to use. The image.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-sm-6 col-xl-3">
-            <div
-              className="use-case__item"
-              data-aos="fade-up"
-              data-aos-duration="600"
-              data-aos-delay="200"
-            >
-              <div className="thumb">
-                <Image src={eight} alt="Image" />
-              </div>
-              <div className="content">
-                <h5 className="h5">
-                  <Link href="/use-case-single">Keywords Generator</Link>
-                </h5>
-                <p>
-                  The advanced AI technology makes our background eraser tool
-                  easy to use. The image.
-                </p>
+                <Link href="#" onClick={(e) => e.preventDefault()}>
+                  View Details
+                  <i className="fa-solid fa-angles-right"></i>
+                </Link>
               </div>
             </div>
           </div>

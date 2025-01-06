@@ -265,6 +265,16 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                     </li>
                     <li className="nav__menu-item">
                       <Link
+                        href="/resources"
+                        className={`nav__menu-link hide-nav ${
+                          router.pathname === "/resources" ? "active" : ""
+                        }`}
+                      >
+                        Resources
+                      </Link>
+                    </li>
+                    <li className="nav__menu-item">
+                      <Link
                         href="/contact-us"
                         className={`nav__menu-link hide-nav ${
                           router.pathname === "/contact-us" ? "active" : ""

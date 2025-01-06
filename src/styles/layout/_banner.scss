@@ -292,7 +292,7 @@
 .banner_heading6 {
   font-size: 22px;
 }
-.cmn-banner_service,.cmn-banner_about,.cmn-banner_portfolio,.cmn-banner_contact {
+.cmn-banner_service,.cmn-banner_about,.cmn-banner_portfolio,.cmn-banner_contact,.cmn-banner_resources {
   z-index: 1;
   position: relative;
   background-color: black;
@@ -338,6 +338,19 @@
   opacity: 0.5;
 }
 .cmn-banner_contact::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../../../public/images/banner/contactbanner.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  opacity: 0.5;
+}
+.cmn-banner_resources::before {
   content: "";
   height: 100%;
   width: 100%;

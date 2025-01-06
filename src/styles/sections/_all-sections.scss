@@ -3310,7 +3310,7 @@
 
 // 30. use case
 .use-case {
-  background-color: #f4f7ff;
+  background-color: black;
   .use-case__item {
     padding: 30px;
     border-radius: 10px;
@@ -3327,7 +3327,7 @@
     .h5 {
       margin-bottom: 16px;
       a {
-        color: $theme-color;
+        color: $white;
         transition: $transition;
         &:hover {
           color: $primary-color;
@@ -3336,7 +3336,7 @@
     }
 
     p {
-      color: #3f3f3f;
+      color: $white;
     }
 
     &:hover {
@@ -3357,18 +3357,18 @@
   .container {
     position: relative;
     z-index: 1;
-    &::after {
-      content: "";
-      position: absolute;
-      top: 50%;
-      bottom: 0px;
-      left: 50%;
-      width: 1px;
-      height: calc(100% - 70px);
-      transform: translateX(-50%) translateY(-50%);
-      background-color: #d9d9d9;
-      z-index: 2;
-    }
+    // &::after {
+    //   content: "";
+    //   position: absolute;
+    //   top: 50%;
+    //   bottom: 0px;
+    //   left: 50%;
+    //   width: 1px;
+    //   height: calc(100% - 70px);
+    //   transform: translateX(-50%) translateY(-50%);
+    //   background-color: #d9d9d9;
+    //   z-index: 2;
+    // }
   }
 
   .items-gap {
@@ -3383,21 +3383,21 @@
       width: calc(50% - 30px);
       height: 100%;
       transform: translateX(-50%);
-      background-color: $white;
+      // background-color: $white;
       z-index: -1;
       border-radius: 10px;
     }
-    &::after {
-      content: "";
-      position: absolute;
-      top: 50%;
-      bottom: 0px;
-      left: 50%;
-      width: calc(50% - 90px);
-      height: 1px;
-      transform: translateX(-50%) translateY(-50%);
-      background-color: #d9d9d9;
-    }
+    // &::after {
+    //   content: "";
+    //   position: absolute;
+    //   top: 50%;
+    //   bottom: 0px;
+    //   left: 50%;
+    //   width: calc(50% - 90px);
+    //   height: 1px;
+    //   transform: translateX(-50%) translateY(-50%);
+    //   background-color: #d9d9d9;
+    // }
   }
 }
 
@@ -4122,13 +4122,65 @@
   color: red;
   font-size: 0.875rem;
 }
-
-//  @media only screen and (max-width:1440px) and (min-width:1400px){
-//   .about_corsec.eraser-two .eraser__slider-item{
-//     height: 390px!important;
-//   }
-//  }
-
+.use-case .use-case__item{
+  background-color: #192337;
+  border: 1px solid #44567c;
+}
+.section.use-case .use-case__item .content h5 a{
+  margin-top: 0;
+}
+.section.use-case .use-case__item a{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #fff;
+    margin-top: 30px;
+}
+.section.use-case .use-case__item:hover .cta a{
+  background-color: #ffffff;
+  color: #111827;
+}
+.section.use-case .cta{
+  background: none;
+  margin-top: 30px;
+}
+.section.use-case .cta a i{
+  color: white;
+}
+.section.use-case .cta a i {
+  transition: none;
+}
+.use-case .use-case__item .content a i, .use-case .use-case__item .content a:hover{
+  color: #8fffec;
+}
+.resdetail p,h4,h6,li,a{
+  color: white;
+}
+.sub_content h6{
+  margin: 10px 0px;
+  background: linear-gradient(to right, #2cc1ec, #7a34d6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sub_content ul{
+  list-style: disc;
+  padding: 0px 35px;
+}
+.resdetail h4{
+  background: linear-gradient(to right, #2cc1ec, #7a34d6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.resdetail .head{
+  margin-bottom: 30px;
+  padding-top: 10px;
+}
+.sub_content > div{
+  margin-bottom: 25px;
+}
+.res_deepLearn .sub_content ul{
+  padding: 0px 15px;
+}
  @media only screen and (max-width:1152px){
   .msvs_sec.sponsor .sponsor__inner{
     padding: 0px;
