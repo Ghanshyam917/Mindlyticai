@@ -28,7 +28,7 @@ const Broadcast = () => {
                     </div>
                     <div className="section__content-cta">
                       <Link
-                       href="#" onClick={(e) => e.preventDefault()}
+                       href="/res-genai"
                         className="btn btn--secondary"
                       >
                         Read More
@@ -64,13 +64,13 @@ const Broadcast = () => {
                         networks to on-demand platforms. Among streaming
                         leaders, Netflix distinguishes itself with its vast
                         content offerings and innovative use of Artificial
-                        Intelligence (AI). Let’s explore how AI has played a
-                        pivotal role in Netflix’s rise to prominence.
+                        Intelligence (AI). Let&apos;s explore how AI has played a
+                        pivotal role in Netflix&apos;s rise to prominence.
                       </p>
                     </div>
                     <div className="section__content-cta">
                       <Link
-                        href="#" onClick={(e) => e.preventDefault()}
+                        href="/res-ml"
                         className="btn btn--secondary"
                       >
                         Read More
@@ -112,7 +112,7 @@ const Broadcast = () => {
                     </div>
                     <div className="section__content-cta">
                       <Link
-                       href="#" onClick={(e) => e.preventDefault()}
+                       href="/res-deepLearn"
                         className="btn btn--secondary"
                       >
                         Read More

@@ -4181,6 +4181,10 @@
 .res_deepLearn .sub_content ul{
   padding: 0px 15px;
 }
+.resdetail ul li::marker, .res_deepLearn .sub_content ul li::marker{
+  color: #3ca6e8;
+}
+
  @media only screen and (max-width:1152px){
   .msvs_sec.sponsor .sponsor__inner{
     padding: 0px;

@@ -32,14 +32,14 @@ const BannerTwo = () => {
                     backDelay={1000}
                     backSpeed={50}
                   /> */}
-                  Generative AI
+                  Generative AI 
                 </span>
               </h2>
               <p className="text-lg text-light">
                 Empowering AI-driven creativity through ChatGPT, NLP, and LangChain innovation.
               </p>
               <div className="section__content-cta">
-                <Link href="#" onClick={(e) => e.preventDefault()} className="btn btn--senary">
+                <Link href="/res-genai" className="btn btn--senary">
                   Explore Generative AI
                 </Link>
                 {/* <p>7-day trial. No credit card required.</p> */}
