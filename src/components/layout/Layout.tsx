@@ -9,6 +9,7 @@ import FooterThree from "./footer/FooterThree";
 import FooterTwoLight from "./footer/FooterTwoLight";
 import FooterThreeLight from "./footer/FooterThreeLight";
 import ScrollProgress from "./ScrollProgress";
+// import Chatbot from "./Chatbot";
 
 type layoutProps = {
   children: React.ReactNode;
@@ -52,6 +53,7 @@ const Layout = ({ children, header, footer }: layoutProps) => {
         <title>MindlyticAI - Think AI,Think Us</title>
         <meta name="keywords" content="techai, ai, toolkit" />
         <meta name="description" content="AI Toolkit React Template" />
+        
       </Head>
       <div className={`${combinedClasses}${openNav ? " body-active" : " "}`}>
         {header && (
@@ -62,6 +64,7 @@ const Layout = ({ children, header, footer }: layoutProps) => {
           />
         )}
         <main>{children}</main>
+        {/* <Chatbot/> */}
         {footer === 1 && <Footer />}
         {footer === 2 && <FooterLight />}
         {footer === 3 && <FooterTwo />}

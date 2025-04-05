@@ -100,6 +100,11 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
+                  <Link href="/privacypolicy">
+                    Privacy Policy
+                  </Link>
+                </li>
+                <li>
                   <Link href="/contact-us">
                     Contact Us
                   </Link>
